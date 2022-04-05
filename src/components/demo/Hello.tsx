@@ -5,7 +5,7 @@ interface Greeting {
     name: string;
 }
 
-const Hello = (props: Greeting) => <Button>hello {props.name}</Button>;
+const Hello = (props: Greeting) => <Button type="primary">hello {props.name}</Button>;
 
 export default Hello;
 
